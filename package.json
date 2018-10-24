@@ -49,6 +49,8 @@
     "classnames": "*",
     "prop-types": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "react-redux": "*",
+    "redux": "*"
   }
 }
