@@ -11,7 +11,14 @@ import reducer from './reducer';
 /**
  * store
  */
-const store = createStore(reducer);
+// devTools
+const devTools = [];
+if (window.devToolsExtension) {
+  devTools.push(window.devToolsExtension());
+}
+
+// createStore
+const store = createStore(reducer, ...devTools);
 
 /**
  * Export
