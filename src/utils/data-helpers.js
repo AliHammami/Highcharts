@@ -14,9 +14,3 @@ export const createRandomData = (time, watts, points = 20) => {
   return data;
 };
 
-// export const addDataPoint = (data, toAdd) => {
-//   if (!toAdd) toAdd = createDataPoint();
-//   const newData = data.slice(0); // Clone
-//   newData.push(toAdd);
-//   return newData;
-// };
