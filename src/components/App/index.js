@@ -7,6 +7,7 @@ import React from 'react';
  * Local import
  */
 // Components
+import Graph from '../Graph';
 
 // Styles
 import './app.scss';
@@ -16,7 +17,7 @@ import './app.scss';
  */
 const App = () => (
   <div id="app">
-    Hello World !
+    <Graph />
   </div>
 );
 
