@@ -24,7 +24,6 @@ const options = {
   },
   tooltip: {
     formatter: function() {
-      console.log(this)
       return '<b>' + Highcharts.dateFormat('%e - %b - %Y',this.x) + '</b><br>' 
         + 'Vous avez consommé à cette date: ' + this.y + ' watts';
     },
